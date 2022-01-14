@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2021 Thorsten Roth -->
+<component type="desktop-application">
+  <id>com.github.elth0r0.hangman.desktop</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Hangman</name>
+  <summary>Simple hangman framework</summary>
+  
+  <description>
+    <p>Simple hangman game framework written in C++ and Qt 5.</p>
+  </description>
+   
+  <launchable type="desktop-id">com.github.elth0r0.hangman.desktop</launchable>
+  
+  <url type="homepage">https://github.com/ElTh0r0/hangman_qt</url>
+  <url type="bugtracker">https://github.com/ElTh0r0/hangman_qt/issues</url>
+  
+  <developer_name>Thorsten Roth</developer_name>
+  <update_contact>elthoro@gmx.de</update_contact>
+  
+  <provides>
+    <binary>hangman</binary>
+  </provides>
+  
+  <content_rating type="oars-1.0" />
+  
+  <releases>
+    <release version="4.0.9" date="2021-06-12">
+      <description>
+        <p>Minor translation changes.</p>
+      </description>
+    </release>
+    <release version="4.0.8" date="2021-04-04">
+      <description>
+        <p>Add support for Qt 6.</p>
+      </description>
+    </release>
+    <release version="4.0.7" date="2021-03-07">
+      <description>
+        <p>Packaging changes and minor adjustments.</p>
+      </description>
+    </release>
+  </releases>
+</component>

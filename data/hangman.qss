@@ -1,0 +1,28 @@
+
+QMainWindow {
+  background: #eeeeec;
+}
+
+QGraphicsView {
+  background: #f8f8f8;
+}
+
+QLabel#lbl_Caption,
+QLabel#lbl_Word,
+QLabel#lbl_CorrectInRow,
+QLabel#lbl_CorrectPercent,
+QLabel#lbl_CptCorrectInRow,
+QLabel#lbl_CptCorrectPercent {
+  color: #202020;
+}
+
+QToolButton {
+  background: #B55100;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+QToolButton:!enabled {
+  background: #babdb6;
+}

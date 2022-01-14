@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Hangman
+GenericName=Hangman
+Comment=Simple hangman game
+Icon=hangman
+TryExec=hangman
+Exec=hangman
+Terminal=false
+Categories=Game;LogicGame;
+Keywords=Hangman;

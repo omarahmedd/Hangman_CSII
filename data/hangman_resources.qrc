@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>hangman.png</file>
+        <file>data.dat</file>
+        <file>hangman.qss</file>
+        <file alias="hangman_de.qm">../lang/hangman_de.qm</file>
+        <file alias="hangman_en.qm">../lang/hangman_en.qm</file>
+        <file alias="hangman_it.qm">../lang/hangman_it.qm</file>
+        <file alias="hangman_nl.qm">../lang/hangman_nl.qm</file>
+    </qresource>
+</RCC>
